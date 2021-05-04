@@ -1,0 +1,395 @@
+:root {
+    --mainColor: #b8a07e;
+}
+
+/* في فرق بين روت و بودي؟ */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainColor {
+    color: var(--mainColor);
+}
+
+.section {
+    margin: 50px 0;
+}
+
+.section .heading {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header {
+    background-image: url(../images/header.jpg);
+    height: 81vh;
+    background-position: 63px -88px;
+    background-size: cover;
+}
+
+
+/* navbar */
+
+.navbar .nav-link {
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.header-content {
+    display: flex !important;
+    justify-content: flex-end;
+    /* height: 209px; */
+    height: 100%;
+    align-items: center;
+}
+
+.header-content .heading {
+    font-size: 40px;
+    margin: 0;
+}
+
+.header-content .hi {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header-content .content-desc {
+    letter-spacing: 5px;
+    font-size: 10px
+}
+
+.header .fas {
+    top: 20%;
+    color: white;
+    background-color: #414141;
+    text-align: center;
+    width: 35px;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* services */
+
+.services-box {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+}
+
+.services {
+    padding: 30px;
+    text-align: center;
+}
+
+.services .fas {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.services-heading {
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.services-desc {
+    font-size: 10px;
+    margin-top: 25px;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 1.9;
+
+}
+
+.services-link,
+.resume-link {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.services-link:hover {
+    text-decoration: none;
+}
+
+.about-desc {
+    width: 45%;
+    margin: auto;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.about-btn a {
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.progress {
+    height: 4px;
+}
+
+.skills .col-md-6 {
+    margin-top: 30px;
+}
+
+.progress-bar {
+    background-color: var(--mainColor);
+}
+
+.progress-title {
+    color: #626262;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.portfolio .nav-tabs {
+    justify-content: center;
+    margin-top: 41px;
+    border: 0;
+}
+
+.portfolio .nav-tabs .nav-link {
+    color: #626262;
+    border: 0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: color 1s;
+}
+
+.portfolio .nav-tabs .nav-link:hover {
+    color: var(--mainColor);
+}
+
+.portfolio img {
+    width: 100%;
+    height: 250px;
+}
+
+.portfolio .nav-item-content {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.portfolio .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity:0; */
+    background-color: rgba(255, 255, 255, .8);
+    border: 4px solid #ccc;
+    opacity: 0;
+    transition: 1s opacity;
+
+}
+
+.portfolio .overlay .fas {
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.portfolio .overlay .nav-img-title {
+    text-transform: uppercase;
+    color: #626262;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.portfolio .overlay .nav-img .nav-img-desc {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.portfolio .overlay:hover {
+    opacity: 1;
+
+}
+
+.portfolio .portfolio-load-link {
+    background: #414141;
+    color: white;
+    margin: 65px auto;
+    width: 130px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: 1s background-color;
+}
+
+.portfolio .portfolio-load-link:hover {
+    background-color: var(--mainColor);
+    text-decoration: none;
+
+}
+
+.resume-item {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-align: center;
+    padding: 30px;
+}
+
+.resume-item .date {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.resume-desc {
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.resume-link {
+    color: #333;
+}
+
+.journal-desc {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    position: relative;
+    bottom: 80px;
+    background-color: #fff;
+}
+
+.journal-heading {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.journal-descr {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.journal-link {
+    color: #626262;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.journal .button .email {
+    border: 1px solid #626262;
+    border-radius: 0;
+    color: #333;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.journal input {
+    height: 48px;
+}
+
+.journal .button .inv {
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 154px;
+}
+
+.journal .button .inv:hover {
+    background-color: var(--mainColor);
+}
+
+.contact-data {
+    box-shadow: 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    position: relative;
+    background-color:#fff;    
+
+}
+.contact{
+    position:relative;
+}
+.contact i {
+    font-size: 30px;
+    color: #626262;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.contact .input {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid;
+
+
+}
+
+.contact .textarea {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid;
+
+
+}
+
+.contact .button {
+    width: 90%;
+    margin: auto !important;
+
+}
+
+.contact .btn {
+    background-color: #333333;
+    color: #fff;
+    text-transform: uppercase;
+    height: 50px;
+
+
+}
+
+
+.social {
+    /* background-color: rgb(247, 245, 246); */
+background:red;
+    position: absolute;
+    top: 207px;
+    height: 401px;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: -1;
+    background-color: rgb(247, 245, 246);
+}
+
+.social i {
+    font-size: 12px;
+    color: #626262;
+    margin: 30px 20px;
+}
+.footer{
+    padding: 101px 0;
+    padding-bottom: 0;
+    text-align: center;
+    margin-bottom: 14px;
+}
